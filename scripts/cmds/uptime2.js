@@ -1,4 +1,4 @@
-const os = require("os");
+.cmd install uptime2.js const os = require("os");
 const util = require("util");
 const exec = util.promisify(require("child_process").exec);
 const axios = require("axios");
@@ -8,7 +8,7 @@ module.exports = {
     name: "uptime2",
     aliases: ["upt2"],
     version: "2.0",
-    author: "FAHAD",
+    author: "Rifat",
     role: 0,
     category: "system",
     guide: { en: "{pn}" }
@@ -69,7 +69,7 @@ module.exports = {
     const botStats = box("𝗕𝗼𝘁 𝗦𝘁𝗮𝘁𝘂𝘀", [
       `👥 𝗨𝘀𝗲𝗿𝘀: ${allUsers.length}`,
       `🗣️ 𝗧𝗵𝗿𝗲𝗮𝗱𝘀: ${allThreads.length}`,
-      `👑 𝗔𝗱𝗺𝗶𝗻: [FAHAD](https://facebook.com/fahad.khan.87890)`
+      `👑 𝗔𝗱𝗺𝗶𝗻: [Didar](https://www.facebook.com/didar.xx2)`
     ].join("\n"));
  
     // Final Output
@@ -125,4 +125,4 @@ function prettyBytes(bytes) {
  
 function box(title, content) {
   return `╭━━━[ ${title} ]━━━╮\n${content}\n╰━━━━━━━━━━━━━━━━━━╯`;
-	}
+}

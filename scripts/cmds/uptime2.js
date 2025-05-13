@@ -1,4 +1,4 @@
-.cmd install uptime2.js const os = require("os");
+const os = require("os");
 const util = require("util");
 const exec = util.promisify(require("child_process").exec);
 const axios = require("axios");
